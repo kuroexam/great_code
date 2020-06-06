@@ -7,7 +7,7 @@ int main()
 
 	while (mojisuu ++ < 1000)
 	{
-		sprintf_s(str, "%d", mojisuu),
+		sprintf(str, "%d", mojisuu),
 		printf("%s, ", mojisuu % 15 ? mojisuu % 3 ? mojisuu % 5 ? str : "Buzz" : "Fizz" : "FizzBuzz");
 	}
 	getchar();
